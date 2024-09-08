@@ -1,0 +1,54 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D5E1EF;
+}
+svg{
+    background:#2C7DFA;
+    width: 80%;
+    height: 80%;
+}
+.innerbackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color:#2C7DFA;
+    border-radius: 5px;
+    height: 200px;
+}
+.herosection{
+    background: white;
+    padding: 0.6rem;
+    box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 240px;
+    height: 380px;
+}
+.firsttext{
+    color: #1F314F;
+    font-weight: 800;
+    justify-content: center;
+    padding: 0.8rem;
+    margin-top: 5px;
+    font-size: 16px;
+    text-align: left;
+    text-shadow: rgba(0, 0, 0, 0.3);
+    font-family: "outfit", sans-serif;
+}
+.lasttext{
+    color: #68778D;
+    justify-content: center;
+    padding: 0.2rem;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.2);
+    font-family: "outfit", sans-serif; 
+}
